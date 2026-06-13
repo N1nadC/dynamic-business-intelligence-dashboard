@@ -1,0 +1,604 @@
+﻿state,city,Sum of profit
+Alabama,Auburn,452.61
+Alabama,Decatur,1000.09
+Alabama,Florence,248.66
+Alabama,Hoover,18.72
+Alabama,Huntsville,1005.26
+Alabama,Mobile,2175.84
+Alabama,Montgomery,834.66
+Alabama,Tuscaloosa,51.01
+Arizona,Avondale,76.17
+Arizona,Bullhead City,6.72
+Arizona,Chandler,81.46
+Arizona,Gilbert,138.25
+Arizona,Glendale,182.88
+Arizona,Mesa,-559.24
+Arizona,Peoria,-55.11
+Arizona,Phoenix,-2790.85
+Arizona,Scottsdale,-89.49
+Arizona,Sierra Vista,16.82
+Arizona,Tempe,95.47
+Arizona,Tucson,-64.96
+Arizona,Yuma,-465.99
+Arkansas,Conway,45.29
+Arkansas,Fayetteville,1691.94
+Arkansas,Hot Springs,62.08
+Arkansas,Jonesboro,801.11
+Arkansas,Little Rock,1154.65
+Arkansas,Pine Bluff,70.2
+Arkansas,Rogers,18.59
+Arkansas,Springdale,1.42
+Arkansas,Texarkana,163.37
+California,Anaheim,1233.98
+California,Antioch,9.33
+California,Apple Valley,283.62
+California,Bakersfield,187.93
+California,Brentwood,1216.83
+California,Burbank,764.53
+California,Camarillo,158.79
+California,Chico,205.12
+California,Chula Vista,248.43
+California,Citrus Heights,54.34
+California,Coachella,47.18
+California,Concord,282.43
+California,Costa Mesa,297.21
+California,Danville,282.44
+California,Davis,15.55
+California,Dublin,1.38
+California,El Cajon,52.69
+California,Encinitas,71.06
+California,Escondido,27.75
+California,Fairfield,117.98
+California,Fresno,948.26
+California,Hesperia,98.53
+California,Huntington Beach,880.04
+California,Inglewood,1026.72
+California,La Mesa,114.39
+California,La Quinta,18.06
+California,Laguna Niguel,41.99
+California,Lake Elsinore,17.75
+California,Lake Forest,327.53
+California,Lakewood,43.96
+California,Lancaster,79.44
+California,Lodi,44.49
+California,Long Beach,746.38
+California,Los Angeles,30440.94
+California,Manteca,172.23
+California,Mission Viejo,151.06
+California,Modesto,19.95
+California,Montebello,3.9
+California,Moreno Valley,353.63
+California,Morgan Hill,7.85
+California,Murrieta,92.08
+California,Oakland,834.1
+California,Oceanside,117.51
+California,Ontario,-46.14
+California,Oxnard,346.46
+California,Pasadena,429.97
+California,Pico Rivera,62.74
+California,Pomona,150.29
+California,Rancho Cucamonga,73.74
+California,Redding,25.02
+California,Redlands,454.16
+California,Redondo Beach,176.43
+California,Redwood City,14.14
+California,Riverside,374.72
+California,Roseville,316.95
+California,Sacramento,2069.69
+California,Salinas,270.51
+California,San Bernardino,69.97
+California,San Clemente,42.55
+California,San Diego,6377.24
+California,San Francisco,17507.39
+California,San Gabriel,290.89
+California,San Jose,1216.06
+California,San Luis Obispo,1.19
+California,San Mateo,35.33
+California,Santa Ana,836.75
+California,Santa Barbara,457.27
+California,Santa Clara,75.99
+California,Santa Maria,30.01
+California,Stockton,339.52
+California,Sunnyvale,107.51
+California,Temecula,101.89
+California,Thousand Oaks,99.93
+California,Torrance,545.16
+California,Vacaville,110.05
+California,Vallejo,336.03
+California,Visalia,88.05
+California,Westminster,763.7
+California,Whittier,44.48
+California,Woodland,33.39
+California,Yucaipa,13.21
+Colorado,Arvada,59.85
+Colorado,Aurora,-797.04
+Colorado,Broomfield,62.43
+Colorado,Colorado Springs,-956.68
+Colorado,Commerce City,-32.93
+Colorado,Denver,-244.91
+Colorado,Englewood,13.75
+Colorado,Fort Collins,-252.69
+Colorado,Greeley,10.36
+Colorado,Littleton,-98.8
+Colorado,Longmont,34.82
+Colorado,Louisville,-3406.18
+Colorado,Loveland,4.48
+Colorado,Parker,-164.18
+Colorado,Pueblo,-900.98
+Colorado,Thornton,140.84
+Connecticut,Bristol,208.14
+Connecticut,Danbury,9.89
+Connecticut,Fairfield,1221.62
+Connecticut,Manchester,600.5
+Connecticut,Meriden,470.21
+Connecticut,Middletown,157.61
+Connecticut,Milford,319.05
+Connecticut,Norwich,164.09
+Connecticut,Shelton,21.4
+Connecticut,Waterbury,338.93
+Delaware,Dover,116.12
+Delaware,Newark,8086.18
+Delaware,Wilmington,1775.07
+District of Columbia,Washington,1059.59
+Florida,Apopka,54.38
+Florida,Boca Raton,-22.64
+Florida,Boynton Beach,50.65
+Florida,Coral Gables,22.36
+Florida,Coral Springs,18.55
+Florida,Daytona Beach,-52.33
+Florida,Delray Beach,29.05
+Florida,Deltona,122.13
+Florida,Fort Lauderdale,-161.35
+Florida,Hialeah,-179.22
+Florida,Hollywood,108.2
+Florida,Homestead,22.33
+Florida,Jacksonville,-2445.63
+Florida,Jupiter,0.15
+Florida,Kissimmee,84.6
+Florida,Lakeland,-188.65
+Florida,Margate,2.33
+Florida,Melbourne,9.56
+Florida,Miami,-1150.35
+Florida,Miramar,32.29
+Florida,North Miami,3.08
+Florida,Orlando,377.73
+Florida,Ormond Beach,-1.97
+Florida,Palm Coast,17.65
+Florida,Pembroke Pines,-72.43
+Florida,Pensacola,-1.48
+Florida,Plantation,12.03
+Florida,Pompano Beach,15.01
+Florida,Port Orange,2.93
+Florida,Port Saint Lucie,4.45
+Florida,Saint Petersburg,152
+Florida,Sanford,-11.83
+Florida,Tallahassee,392.71
+Florida,Tamarac,-351.89
+Florida,Tampa,-325.26
+Florida,West Palm Beach,31.61
+Georgia,Athens,479.33
+Georgia,Atlanta,6993.69
+Georgia,Columbus,4104.12
+Georgia,East Point,102.01
+Georgia,Macon,144.86
+Georgia,Marietta,512.14
+Georgia,Roswell,2427.44
+Georgia,Sandy Springs,520.58
+Georgia,Smyrna,807.34
+Georgia,Warner Robins,53.69
+Georgia,Woodstock,104.88
+Idaho,Boise,221.95
+Idaho,Caldwell,58.7
+Idaho,Lewiston,3.35
+Idaho,Meridian,95.21
+Idaho,Pocatello,181.35
+Idaho,Twin Falls,266.17
+Illinois,Arlington Heights,1.23
+Illinois,Aurora,-1894.72
+Illinois,Bloomington,-432.12
+Illinois,Bolingbrook,-4.66
+Illinois,Buffalo Grove,-89.65
+Illinois,Carol Stream,-39.87
+Illinois,Champaign,-182.35
+Illinois,Chicago,-6654.55
+Illinois,Danville,-69.4
+Illinois,Decatur,-311.04
+Illinois,Des Plaines,-236.77
+Illinois,Elmhurst,-212.13
+Illinois,Evanston,411.89
+Illinois,Frankfort,-26.06
+Illinois,Freeport,-127.45
+Illinois,Glenview,13.86
+Illinois,Highland Park,-169.93
+Illinois,Naperville,-146.53
+Illinois,Normal,-110.02
+Illinois,Oak Park,1.02
+Illinois,Orland Park,67.99
+Illinois,Oswego,-536.13
+Illinois,Palatine,23.26
+Illinois,Park Ridge,-238.45
+Illinois,Peoria,-72.77
+Illinois,Quincy,49.1
+Illinois,Rockford,-1149.52
+Illinois,Romeoville,-14.77
+Illinois,Saint Charles,216.65
+Illinois,Skokie,-346.87
+Illinois,Tinley Park,-8.92
+Illinois,Wheeling,-293.32
+Illinois,Woodstock,-24.89
+Indiana,Bloomington,182.77
+Indiana,Columbus,2522.5
+Indiana,Elkhart,16.67
+Indiana,Greenwood,471.74
+Indiana,Indianapolis,2741.67
+Indiana,La Porte,224.51
+Indiana,Lafayette,8976.1
+Indiana,Lawrence,532.75
+Indiana,Mishawaka,96.59
+Indiana,New Albany,73.35
+Indiana,New Castle,23.09
+Indiana,Noblesville,353.31
+Indiana,Portage,6.51
+Indiana,Richmond,1881.85
+Indiana,South Bend,279.56
+Iowa,Burlington,26.67
+Iowa,Cedar Rapids,80.74
+Iowa,Des Moines,360.4
+Iowa,Dubuque,477.68
+Iowa,Iowa City,4.5
+Iowa,Marion,164.28
+Iowa,Urbandale,57.72
+Iowa,Waterloo,11.82
+Kansas,Garden City,90.62
+Kansas,Manhattan,10.96
+Kansas,Olathe,207.42
+Kansas,Overland Park,203.53
+Kansas,Wichita,323.92
+Kentucky,Bowling Green,67.12
+Kentucky,Florence,1837.34
+Kentucky,Georgetown,402.75
+Kentucky,Henderson,4518.83
+Kentucky,Louisville,1975.89
+Kentucky,Murray,94.47
+Kentucky,Owensboro,27.64
+Kentucky,Richmond,2275.66
+Louisiana,Bossier City,336.96
+Louisiana,Kenner,19.8
+Louisiana,Lafayette,1042.28
+Louisiana,Lake Charles,241.25
+Louisiana,Monroe,555.8
+Maine,Bangor,422.23
+Maine,Lewiston,32.27
+Maryland,Baltimore,1676.21
+Maryland,Clinton,1274.27
+Maryland,Columbia,3775.2
+Maryland,Gaithersburg,105.54
+Maryland,Hagerstown,20.59
+Maryland,Laurel,46.18
+Maryland,Rockville,133.21
+Massachusetts,Andover,124.19
+Massachusetts,Beverly,654.92
+Massachusetts,Cambridge,173.72
+Massachusetts,Everett,1360.1
+Massachusetts,Franklin,464.64
+Massachusetts,Holyoke,60.39
+Massachusetts,Lawrence,1849.41
+Massachusetts,Leominster,79.5
+Massachusetts,Lowell,1312.58
+Massachusetts,Malden,31.18
+Massachusetts,Marlborough,67.6
+Massachusetts,New Bedford,50.49
+Massachusetts,Quincy,297.99
+Massachusetts,Revere,258.84
+Michigan,Ann Arbor,228.92
+Michigan,Canton,149.28
+Michigan,Dearborn,467.39
+Michigan,Dearborn Heights,140.88
+Michigan,Detroit,13181.79
+Michigan,Grand Rapids,233.92
+Michigan,Holland,66.66
+Michigan,Jackson,5525.19
+Michigan,Lansing,412.88
+Michigan,Lincoln Park,68.37
+Michigan,Midland,2293.69
+Michigan,Mount Pleasant,6.17
+Michigan,Oak Park,151.02
+Michigan,Rochester Hills,54.33
+Michigan,Roseville,268.92
+Michigan,Royal Oak,16.96
+Michigan,Saginaw,77.17
+Michigan,Sterling Heights,33.06
+Michigan,Taylor,44.87
+Michigan,Trenton,652.09
+Michigan,Westland,389.59
+Minnesota,Apple Valley,8.98
+Minnesota,Coon Rapids,136.45
+Minnesota,Cottage Grove,54.8
+Minnesota,Eagan,87.03
+Minnesota,Lakeville,1346.6
+Minnesota,Maple Grove,385.01
+Minnesota,Minneapolis,6824.61
+Minnesota,Moorhead,101.41
+Minnesota,Rochester,520.2
+Minnesota,Roseville,667.53
+Minnesota,Saint Cloud,469.62
+Minnesota,Saint Paul,24.89
+Minnesota,Woodbury,196.09
+Mississippi,Gulfport,77.58
+Mississippi,Hattiesburg,582.08
+Mississippi,Jackson,2100.44
+Mississippi,Southaven,412.88
+Missouri,Columbia,1106.77
+Missouri,Gladstone,52.59
+Missouri,Independence,975.66
+Missouri,Jefferson City,8.66
+Missouri,Kirkwood,47.13
+Missouri,Saint Charles,94.83
+Missouri,Saint Louis,98.56
+Missouri,Saint Peters,146.4
+Missouri,Springfield,3905.59
+Montana,Billings,2.69
+Montana,Bozeman,20.81
+Montana,Great Falls,1582.7
+Montana,Helena,74.62
+Montana,Missoula,152.5
+Nebraska,Fremont,179.46
+Nebraska,Grand Island,7.98
+Nebraska,Norfolk,8.02
+Nebraska,Omaha,1841.64
+Nevada,Henderson,393.04
+Nevada,Las Vegas,332.45
+Nevada,North Las Vegas,2247.68
+Nevada,Reno,115.05
+Nevada,Sparks,228.54
+New Hampshire,Concord,787.62
+New Hampshire,Dover,905.36
+New Hampshire,Nashua,13.52
+New Jersey,Atlantic City,11.68
+New Jersey,Bayonne,79.41
+New Jersey,Belleville,283.64
+New Jersey,Bridgeton,3.44
+New Jersey,Clifton,98.59
+New Jersey,East Orange,174.62
+New Jersey,Hackensack,451.26
+New Jersey,Lakewood,3526.67
+New Jersey,Linden,49.6
+New Jersey,Morristown,1838.22
+New Jersey,New Brunswick,7.16
+New Jersey,Orange,66.57
+New Jersey,Passaic,356.81
+New Jersey,Paterson,740.49
+New Jersey,Perth Amboy,633.65
+New Jersey,Plainfield,1235.67
+New Jersey,Vineland,62.26
+New Jersey,Westfield,153.17
+New Mexico,Albuquerque,634.09
+New Mexico,Carlsbad,157.76
+New Mexico,Clovis,11.64
+New Mexico,Farmington,169.42
+New Mexico,Las Cruces,43.95
+New Mexico,Rio Rancho,119.59
+New Mexico,Santa Fe,20.68
+New York,Auburn,280.8
+New York,Buffalo,992.87
+New York,Freeport,107.37
+New York,Hempstead,629.07
+New York,Jamestown,1285.77
+New York,Lindenhurst,26.63
+New York,Long Beach,1362.52
+New York,Mount Vernon,662.51
+New York,New Rochelle,368.42
+New York,New York City,62037.08
+New York,Niagara Falls,59.24
+New York,Oceanside,655.16
+New York,Rochester,1223.2
+New York,Rome,154.22
+New York,Troy,330.45
+New York,Utica,188.56
+New York,Watertown,907.01
+New York,Yonkers,2767.76
+North Carolina,Asheville,77.53
+North Carolina,Burlington,-5894.53
+North Carolina,Cary,54.04
+North Carolina,Chapel Hill,4.73
+North Carolina,Charlotte,-429.77
+North Carolina,Concord,-1788.68
+North Carolina,Durham,116.88
+North Carolina,Fayetteville,126.71
+North Carolina,Gastonia,-14.74
+North Carolina,Goldsboro,3.06
+North Carolina,Greensboro,-122.95
+North Carolina,Greenville,-548.98
+North Carolina,Hickory,-1.1
+North Carolina,Jacksonville,121.83
+North Carolina,Monroe,140.83
+North Carolina,Raleigh,472.62
+North Carolina,Thomasville,33.4
+North Carolina,Wilmington,172.64
+North Carolina,Wilson,-14.33
+North Dakota,Fargo,230.14
+Ohio,Akron,-186.64
+Ohio,Bowling Green,149.95
+Ohio,Cincinnati,175.34
+Ohio,Cleveland,-848.02
+Ohio,Columbus,-729.51
+Ohio,Cuyahoga Falls,-12.58
+Ohio,Dublin,-351.3
+Ohio,Elyria,-1.4
+Ohio,Fairfield,-129.29
+Ohio,Grove City,13.19
+Ohio,Hamilton,-9.39
+Ohio,Kent,-11.31
+Ohio,Lakewood,-336.59
+Ohio,Lancaster,-7149.63
+Ohio,Lorain,-632.92
+Ohio,Marion,-544.66
+Ohio,Mason,-4.23
+Ohio,Medina,-1343.05
+Ohio,Mentor,-123.28
+Ohio,Newark,-2292.41
+Ohio,Parma,31.06
+Ohio,Springfield,-1420.14
+Ohio,Toledo,-339.99
+Ohio,Troy,-874.57
+Oklahoma,Broken Arrow,575.52
+Oklahoma,Edmond,243.1
+Oklahoma,Lawton,235.52
+Oklahoma,Muskogee,442.6
+Oklahoma,Norman,269.53
+Oklahoma,Oklahoma City,1580.76
+Oklahoma,Tulsa,1506.95
+Oregon,Eugene,134.03
+Oregon,Gresham,150.85
+Oregon,Hillsboro,1.54
+Oregon,Medford,19.71
+Oregon,Portland,9.77
+Oregon,Redmond,-174.45
+Oregon,Salem,-262.33
+Oregon,Springfield,-853.31
+Oregon,Tigard,-216.29
+Pennsylvania,Allentown,-226.46
+Pennsylvania,Altoona,-1.19
+Pennsylvania,Bethlehem,-1003.1
+Pennsylvania,Chester,48.36
+Pennsylvania,Lancaster,-168.89
+Pennsylvania,Philadelphia,-13837.83
+Pennsylvania,Reading,-268.76
+Pennsylvania,York,-102.17
+Rhode Island,Cranston,637.51
+Rhode Island,Providence,5505.67
+Rhode Island,Warwick,1063.79
+Rhode Island,Woonsocket,78.67
+South Carolina,Columbia,1388.4
+South Carolina,Florence,82.96
+South Carolina,Mount Pleasant,87.35
+South Carolina,North Charleston,9.67
+South Carolina,Rock Hill,3.79
+South Carolina,Summerville,196.91
+South Dakota,Aberdeen,6.63
+South Dakota,Rapid City,44.77
+South Dakota,Sioux Falls,343.44
+Tennessee,Bartlett,10.01
+Tennessee,Bristol,-126.52
+Tennessee,Chattanooga,27.2
+Tennessee,Clarksville,-1055.35
+Tennessee,Columbia,-664.25
+Tennessee,Franklin,-92.53
+Tennessee,Hendersonville,-45.4
+Tennessee,Jackson,-43.96
+Tennessee,Johnson City,11.86
+Tennessee,Knoxville,-1165.08
+Tennessee,Lebanon,83.81
+Tennessee,Memphis,-1479.02
+Tennessee,Murfreesboro,15.69
+Tennessee,Nashville,-837.49
+Tennessee,Smyrna,19.37
+Texas,Abilene,-3.76
+Texas,Allen,-39.88
+Texas,Amarillo,-387.97
+Texas,Arlington,-254.38
+Texas,Austin,-20.39
+Texas,Baytown,3.63
+Texas,Beaumont,59.11
+Texas,Bedford,10.62
+Texas,Brownsville,202.08
+Texas,Bryan,-213.71
+Texas,Carrollton,-470.21
+Texas,Cedar Hill,42.83
+Texas,College Station,-117.63
+Texas,Conroe,6.98
+Texas,Coppell,41.49
+Texas,Corpus Christi,-43.72
+Texas,Dallas,-2846.55
+Texas,Deer Park,-10.39
+Texas,Edinburg,27.81
+Texas,El Paso,-179.89
+Texas,Fort Worth,298.74
+Texas,Frisco,-18.8
+Texas,Garland,-32.38
+Texas,Grand Prairie,-85.23
+Texas,Grapevine,8.77
+Texas,Haltom City,51.96
+Texas,Harlingen,18.12
+Texas,Houston,-10153.48
+Texas,Huntsville,-843.4
+Texas,Irving,-100.52
+Texas,Keller,2.1
+Texas,La Porte,-32.53
+Texas,Laredo,-54.6
+Texas,League City,-31.34
+Texas,Lubbock,147.13
+Texas,Mansfield,-66.79
+Texas,Mcallen,-163.89
+Texas,Mesquite,-87.63
+Texas,Missouri City,-9.56
+Texas,Odessa,-69.71
+Texas,Pasadena,-340.1
+Texas,Pearland,39.41
+Texas,Pharr,-237.55
+Texas,Plano,-383.05
+Texas,Port Arthur,105.78
+Texas,Richardson,-24.49
+Texas,Round Rock,-1183.42
+Texas,San Angelo,-58.56
+Texas,San Antonio,-7299.06
+Texas,San Marcos,-19.34
+Texas,Texas City,20.22
+Texas,The Colony,31.66
+Texas,Tyler,-443.71
+Texas,Waco,-520.11
+Utah,Draper,92.73
+Utah,Layton,2.33
+Utah,Lehi,451.67
+Utah,Logan,46.97
+Utah,Murray,37.06
+Utah,Orem,514.63
+Utah,Pleasant Grove,580.66
+Utah,Provo,388.57
+Utah,Salt Lake City,329.27
+Utah,West Jordan,102.67
+Virginia,Alexandria,318.62
+Virginia,Arlington,4424.09
+Virginia,Charlottesville,22.63
+Virginia,Chesapeake,1262.79
+Virginia,Hampton,953.84
+Virginia,Harrisonburg,889.53
+Virginia,Newport News,1197.06
+Virginia,Richmond,1409.73
+Virginia,Salem,533.02
+Virginia,Springfield,4568.61
+Virginia,Suffolk,389.81
+Virginia,Virginia Beach,2024.88
+Virginia,Waynesboro,603.39
+Washington,Auburn,1.5
+Washington,Bellevue,37.06
+Washington,Bellingham,610.6
+Washington,Covington,115.11
+Washington,Des Moines,1250.34
+Washington,Edmonds,634.26
+Washington,Everett,1.4
+Washington,Kent,603.1
+Washington,Longview,38.89
+Washington,Marysville,3.31
+Washington,Olympia,139.63
+Washington,Pasco,357.53
+Washington,Redmond,20.73
+Washington,Renton,185.43
+Washington,Seattle,29156.13
+Washington,Spokane,172.22
+Washington,Vancouver,75.46
+West Virginia,Wheeling,185.93
+Wisconsin,Appleton,554.77
+Wisconsin,Eau Claire,427.5
+Wisconsin,Franklin,1292.77
+Wisconsin,Green Bay,228.47
+Wisconsin,Kenosha,1028.07
+Wisconsin,La Crosse,272.07
+Wisconsin,Madison,1123.65
+Wisconsin,Milwaukee,2793.09
+Wisconsin,Sheboygan,34.34
+Wisconsin,Superior,514.08
+Wisconsin,Waukesha,14.17
+Wisconsin,Wausau,90.43
+Wisconsin,West Allis,28.37
+Wyoming,Cheyenne,100.2

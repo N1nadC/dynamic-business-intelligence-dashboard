@@ -1,0 +1,201 @@
+﻿state,city,Sum of profit
+New York,New York City,62037.08
+California,Los Angeles,30440.94
+Washington,Seattle,29156.13
+California,San Francisco,17507.39
+Michigan,Detroit,13181.79
+Indiana,Lafayette,8976.1
+Delaware,Newark,8086.18
+Georgia,Atlanta,6993.69
+Minnesota,Minneapolis,6824.61
+California,San Diego,6377.24
+Michigan,Jackson,5525.19
+Virginia,Springfield,4568.61
+Kentucky,Henderson,4518.83
+Virginia,Arlington,4424.09
+Georgia,Columbus,4104.12
+New York,Yonkers,2767.76
+Indiana,Indianapolis,2741.67
+Indiana,Columbus,2522.5
+Georgia,Roswell,2427.44
+Michigan,Midland,2293.69
+Kentucky,Richmond,2275.66
+California,Sacramento,2069.69
+Virginia,Virginia Beach,2024.88
+Kentucky,Louisville,1975.89
+Indiana,Richmond,1881.85
+Kentucky,Florence,1837.34
+Delaware,Wilmington,1775.07
+Virginia,Richmond,1409.73
+New York,Long Beach,1362.52
+Minnesota,Lakeville,1346.6
+New York,Jamestown,1285.77
+Virginia,Chesapeake,1262.79
+Washington,Des Moines,1250.34
+California,Anaheim,1233.98
+New York,Rochester,1223.2
+California,Brentwood,1216.83
+California,San Jose,1216.06
+Virginia,Newport News,1197.06
+California,Inglewood,1026.72
+New York,Buffalo,992.87
+Virginia,Hampton,953.84
+California,Fresno,948.26
+New York,Watertown,907.01
+Virginia,Harrisonburg,889.53
+California,Huntington Beach,880.04
+California,Santa Ana,836.75
+California,Oakland,834.1
+Georgia,Smyrna,807.34
+California,Burbank,764.53
+California,Westminster,763.7
+California,Long Beach,746.38
+Minnesota,Roseville,667.53
+New York,Mount Vernon,662.51
+New York,Oceanside,655.16
+Michigan,Trenton,652.09
+Washington,Edmonds,634.26
+New York,Hempstead,629.07
+Washington,Bellingham,610.6
+Virginia,Waynesboro,603.39
+Washington,Kent,603.1
+California,Torrance,545.16
+Virginia,Salem,533.02
+Indiana,Lawrence,532.75
+Georgia,Sandy Springs,520.58
+Minnesota,Rochester,520.2
+Georgia,Marietta,512.14
+Georgia,Athens,479.33
+Indiana,Greenwood,471.74
+Minnesota,Saint Cloud,469.62
+Michigan,Dearborn,467.39
+California,Santa Barbara,457.27
+California,Redlands,454.16
+California,Pasadena,429.97
+Michigan,Lansing,412.88
+Kentucky,Georgetown,402.75
+Virginia,Suffolk,389.81
+Michigan,Westland,389.59
+Minnesota,Maple Grove,385.01
+California,Riverside,374.72
+New York,New Rochelle,368.42
+Washington,Pasco,357.53
+California,Moreno Valley,353.63
+Indiana,Noblesville,353.31
+California,Oxnard,346.46
+California,Stockton,339.52
+California,Vallejo,336.03
+New York,Troy,330.45
+California,Lake Forest,327.53
+Virginia,Alexandria,318.62
+California,Roseville,316.95
+California,Costa Mesa,297.21
+California,San Gabriel,290.89
+California,Apple Valley,283.62
+California,Danville,282.44
+California,Concord,282.43
+New York,Auburn,280.8
+Indiana,South Bend,279.56
+California,Salinas,270.51
+Michigan,Roseville,268.92
+California,Chula Vista,248.43
+Michigan,Grand Rapids,233.92
+Michigan,Ann Arbor,228.92
+Indiana,La Porte,224.51
+California,Chico,205.12
+Minnesota,Woodbury,196.09
+New York,Utica,188.56
+California,Bakersfield,187.93
+Washington,Renton,185.43
+Indiana,Bloomington,182.77
+California,Redondo Beach,176.43
+California,Manteca,172.23
+Washington,Spokane,172.22
+California,Camarillo,158.79
+New York,Rome,154.22
+California,Mission Viejo,151.06
+Michigan,Oak Park,151.02
+California,Pomona,150.29
+Michigan,Canton,149.28
+Georgia,Macon,144.86
+Michigan,Dearborn Heights,140.88
+Washington,Olympia,139.63
+Minnesota,Coon Rapids,136.45
+California,Fairfield,117.98
+California,Oceanside,117.51
+Delaware,Dover,116.12
+Washington,Covington,115.11
+California,La Mesa,114.39
+California,Vacaville,110.05
+California,Sunnyvale,107.51
+New York,Freeport,107.37
+Georgia,Woodstock,104.88
+Georgia,East Point,102.01
+California,Temecula,101.89
+Minnesota,Moorhead,101.41
+California,Thousand Oaks,99.93
+California,Hesperia,98.53
+Indiana,Mishawaka,96.59
+Kentucky,Murray,94.47
+California,Murrieta,92.08
+California,Visalia,88.05
+Minnesota,Eagan,87.03
+California,Lancaster,79.44
+Michigan,Saginaw,77.17
+California,Santa Clara,75.99
+Washington,Vancouver,75.46
+California,Rancho Cucamonga,73.74
+Indiana,New Albany,73.35
+California,Encinitas,71.06
+California,San Bernardino,69.97
+Michigan,Lincoln Park,68.37
+Kentucky,Bowling Green,67.12
+Michigan,Holland,66.66
+California,Pico Rivera,62.74
+New York,Niagara Falls,59.24
+Minnesota,Cottage Grove,54.8
+California,Citrus Heights,54.34
+Michigan,Rochester Hills,54.33
+Georgia,Warner Robins,53.69
+California,El Cajon,52.69
+California,Coachella,47.18
+Michigan,Taylor,44.87
+California,Lodi,44.49
+California,Whittier,44.48
+California,Lakewood,43.96
+California,San Clemente,42.55
+California,Laguna Niguel,41.99
+Washington,Longview,38.89
+Washington,Bellevue,37.06
+California,San Mateo,35.33
+California,Woodland,33.39
+Michigan,Sterling Heights,33.06
+California,Santa Maria,30.01
+California,Escondido,27.75
+Kentucky,Owensboro,27.64
+New York,Lindenhurst,26.63
+California,Redding,25.02
+Minnesota,Saint Paul,24.89
+Indiana,New Castle,23.09
+Virginia,Charlottesville,22.63
+Washington,Redmond,20.73
+California,Modesto,19.95
+California,La Quinta,18.06
+California,Lake Elsinore,17.75
+Michigan,Royal Oak,16.96
+Indiana,Elkhart,16.67
+California,Davis,15.55
+California,Redwood City,14.14
+California,Yucaipa,13.21
+California,Antioch,9.33
+Minnesota,Apple Valley,8.98
+California,Morgan Hill,7.85
+Indiana,Portage,6.51
+Michigan,Mount Pleasant,6.17
+California,Montebello,3.9
+Washington,Marysville,3.31
+Washington,Auburn,1.5
+Washington,Everett,1.4
+California,Dublin,1.38
+California,San Luis Obispo,1.19
+California,Ontario,-46.14
