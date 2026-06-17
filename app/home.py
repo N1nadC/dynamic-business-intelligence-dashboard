@@ -15,6 +15,7 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
     }
 
+    /* ── Hero Section ── */
     .hero-container {
         background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
         border-radius: 16px;
@@ -73,63 +74,56 @@ st.markdown("""
         font-weight: 600;
     }
 
+    /* ── Section Headers ── */
     .section-header {
         font-size: 1.3rem;
         font-weight: 700;
-        color: #0f172a;
         margin-bottom: 1.2rem;
         padding-bottom: 0.5rem;
-        border-bottom: 2px solid #e2e8f0;
+        border-bottom: 2px solid;
         display: inline-block;
     }
 
+    /* ── Metric Cards ── */
     .metric-card {
-        background: #ffffff;
         border-radius: 12px;
         padding: 1.5rem;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        border: 1px solid;
         transition: all 0.2s ease;
         text-align: center;
     }
 
     .metric-card:hover {
         transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-        border-color: #cbd5e1;
     }
 
     .metric-value {
         font-size: 1.9rem;
         font-weight: 800;
-        color: #0f172a;
         margin: 0.4rem 0;
     }
 
     .metric-label {
         font-size: 0.8rem;
-        color: #64748b;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.06em;
     }
 
+    /* ── Pipeline ── */
     .pipeline-container {
-        background: #f8fafc;
         border-radius: 12px;
         padding: 1.5rem;
-        border: 1px solid #e2e8f0;
+        border: 1px solid;
     }
 
     .pipeline-step {
         display: flex;
         align-items: center;
         padding: 0.9rem 1.2rem;
-        background: white;
         border-radius: 10px;
         margin-bottom: 0.6rem;
         border-left: 3px solid #3b82f6;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.03);
         transition: all 0.2s ease;
     }
 
@@ -152,41 +146,32 @@ st.markdown("""
 
     .pipeline-text {
         font-weight: 600;
-        color: #1e293b;
         font-size: 0.95rem;
     }
 
+    /* ── Tech Badges ── */
     .tech-badge {
         display: inline-block;
-        background: #f1f5f9;
-        color: #334155;
         padding: 0.4rem 1rem;
         border-radius: 50px;
         font-size: 0.8rem;
         font-weight: 600;
         margin: 0.2rem;
-        border: 1px solid #e2e8f0;
+        border: 1px solid;
         transition: all 0.2s ease;
     }
 
-    .tech-badge:hover {
-        background: #e2e8f0;
-        border-color: #cbd5e1;
-    }
-
+    /* ── Nav Cards ── */
     .nav-card {
-        background: white;
         border-radius: 12px;
         padding: 1.5rem;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        border: 1px solid;
         transition: all 0.2s ease;
         height: 100%;
     }
 
     .nav-card:hover {
         transform: translateY(-4px);
-        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
         border-color: #3b82f6;
     }
 
@@ -199,33 +184,140 @@ st.markdown("""
     .nav-title {
         font-size: 1.05rem;
         font-weight: 700;
-        color: #0f172a;
         margin-bottom: 0.3rem;
     }
 
     .nav-desc {
         font-size: 0.85rem;
-        color: #64748b;
         line-height: 1.5;
     }
 
+    /* ── Overview Text ── */
     .overview-text {
         font-size: 1rem;
         line-height: 1.8;
-        color: #475569;
-        background: white;
         padding: 1.5rem;
         border-radius: 12px;
-        border: 1px solid #e2e8f0;
+        border: 1px solid;
     }
 
+    /* ── Footer ── */
     .footer {
         text-align: center;
         padding: 2rem 0;
-        color: #94a3b8;
         font-size: 0.8rem;
-        border-top: 1px solid #e2e8f0;
+        border-top: 1px solid;
         margin-top: 2rem;
+    }
+
+    /* ── LIGHT MODE ── */
+    @media (prefers-color-scheme: light) {
+        .section-header {
+            color: #0f172a;
+            border-color: #e2e8f0;
+        }
+        .metric-card {
+            background: #ffffff;
+            border-color: #e2e8f0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+        .metric-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            border-color: #cbd5e1;
+        }
+        .metric-value { color: #0f172a; }
+        .metric-label { color: #64748b; }
+        .pipeline-container {
+            background: #f8fafc;
+            border-color: #e2e8f0;
+        }
+        .pipeline-step {
+            background: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+        }
+        .pipeline-text { color: #1e293b; }
+        .tech-badge {
+            background: #f1f5f9;
+            color: #334155;
+            border-color: #e2e8f0;
+        }
+        .tech-badge:hover {
+            background: #e2e8f0;
+            border-color: #cbd5e1;
+        }
+        .nav-card {
+            background: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .nav-card:hover {
+            box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+        }
+        .nav-title { color: #0f172a; }
+        .nav-desc { color: #64748b; }
+        .overview-text {
+            color: #475569;
+            background: white;
+            border-color: #e2e8f0;
+        }
+        .footer {
+            color: #94a3b8;
+            border-color: #e2e8f0;
+        }
+    }
+
+    /* ── DARK MODE ── */
+    @media (prefers-color-scheme: dark) {
+        .section-header {
+            color: #f1f5f9;
+            border-color: #334155;
+        }
+        .metric-card {
+            background: #1e293b;
+            border-color: #334155;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        .metric-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border-color: #475569;
+        }
+        .metric-value { color: #f1f5f9; }
+        .metric-label { color: #94a3b8; }
+        .pipeline-container {
+            background: #1e293b;
+            border-color: #334155;
+        }
+        .pipeline-step {
+            background: #0f172a;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        }
+        .pipeline-text { color: #e2e8f0; }
+        .tech-badge {
+            background: #334155;
+            color: #e2e8f0;
+            border-color: #475569;
+        }
+        .tech-badge:hover {
+            background: #475569;
+            border-color: #64748b;
+        }
+        .nav-card {
+            background: #1e293b;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+        .nav-card:hover {
+            box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+        }
+        .nav-title { color: #f1f5f9; }
+        .nav-desc { color: #94a3b8; }
+        .overview-text {
+            color: #cbd5e1;
+            background: #1e293b;
+            border-color: #334155;
+        }
+        .footer {
+            color: #64748b;
+            border-color: #334155;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
@@ -339,7 +431,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown('<div class="section-header">Dashboard Navigation</div>', unsafe_allow_html=True)
 
 st.markdown("""
-<div style="color: #64748b; margin-bottom: 1.5rem; font-size: 0.95rem;">
+<div style="margin-bottom: 1.5rem; font-size: 0.95rem;">
     Use the sidebar to explore interactive analytics modules:
 </div>
 """, unsafe_allow_html=True)

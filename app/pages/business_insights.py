@@ -13,6 +13,7 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
     }
 
+    /* ── Hero Section ── */
     .hero-insight {
         background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
         border-radius: 16px;
@@ -45,75 +46,66 @@ st.markdown("""
         font-size: 0.95rem;
     }
 
+    /* ── Section Titles ── */
     .section-title {
         font-size: 1.2rem;
         font-weight: 700;
-        color: #0f172a;
         margin-bottom: 1rem;
         padding-bottom: 0.4rem;
-        border-bottom: 2px solid #e2e8f0;
+        border-bottom: 2px solid;
         display: inline-block;
     }
 
+    /* ── Metric Cards ── */
     .metric-card {
-        background: #ffffff;
         border-radius: 12px;
         padding: 1.3rem;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        border: 1px solid;
         transition: all 0.2s ease;
         text-align: center;
     }
 
     .metric-card:hover {
         transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-        border-color: #cbd5e1;
     }
 
     .metric-value {
         font-size: 1.7rem;
         font-weight: 800;
-        color: #0f172a;
         margin: 0.3rem 0;
     }
 
     .metric-label {
         font-size: 0.78rem;
-        color: #64748b;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.06em;
     }
 
+    /* ── Finding Cards ── */
     .finding-card {
-        background: white;
         border-radius: 10px;
         padding: 1rem 1.2rem;
         border-left: 3px solid #22c55e;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
         margin-bottom: 0.8rem;
         transition: all 0.2s ease;
     }
 
     .finding-card:hover {
         transform: translateX(3px);
-        box-shadow: 0 3px 8px rgba(0,0,0,0.06);
     }
 
     .finding-text {
         font-size: 0.95rem;
-        color: #1e293b;
         font-weight: 500;
         line-height: 1.5;
     }
 
+    /* ── Recommendation Cards ── */
     .recommendation-card {
-        background: #ffffff;
         border-radius: 12px;
         padding: 1.3rem;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        border: 1px solid;
         margin-bottom: 0.8rem;
         transition: all 0.2s ease;
         position: relative;
@@ -132,14 +124,11 @@ st.markdown("""
 
     .recommendation-card:hover {
         transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-        border-color: #cbd5e1;
     }
 
     .rec-title {
         font-size: 1rem;
         font-weight: 700;
-        color: #0f172a;
         margin-bottom: 0.4rem;
         display: flex;
         align-items: center;
@@ -148,27 +137,58 @@ st.markdown("""
 
     .rec-text {
         font-size: 0.9rem;
-        color: #475569;
         line-height: 1.6;
         padding-left: 0.3rem;
     }
 
+    /* ── Priority Badges ── */
+    .priority-high {
+        display: inline-block;
+        padding: 0.15rem 0.5rem;
+        border-radius: 50px;
+        font-size: 0.65rem;
+        font-weight: 700;
+        margin-left: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    .priority-medium {
+        display: inline-block;
+        padding: 0.15rem 0.5rem;
+        border-radius: 50px;
+        font-size: 0.65rem;
+        font-weight: 700;
+        margin-left: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    .priority-low {
+        display: inline-block;
+        padding: 0.15rem 0.5rem;
+        border-radius: 50px;
+        font-size: 0.65rem;
+        font-weight: 700;
+        margin-left: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    /* ── Pipeline ── */
     .pipeline-container {
-        background: #f8fafc;
         border-radius: 12px;
         padding: 1.5rem;
-        border: 1px solid #e2e8f0;
+        border: 1px solid;
     }
 
     .pipeline-step {
         display: flex;
         align-items: center;
         padding: 0.9rem 1.2rem;
-        background: white;
         border-radius: 10px;
         margin-bottom: 0.6rem;
         border-left: 3px solid #3b82f6;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.03);
         transition: all 0.2s ease;
     }
 
@@ -192,74 +212,166 @@ st.markdown("""
 
     .pipeline-text {
         font-weight: 600;
-        color: #1e293b;
         font-size: 0.95rem;
     }
 
+    /* ── Tech Badges ── */
     .tech-badge {
         display: inline-block;
-        background: #f1f5f9;
-        color: #334155;
         padding: 0.4rem 1rem;
         border-radius: 50px;
         font-size: 0.8rem;
         font-weight: 600;
         margin: 0.2rem;
-        border: 1px solid #e2e8f0;
+        border: 1px solid;
         transition: all 0.2s ease;
     }
 
-    .tech-badge:hover {
-        background: #e2e8f0;
-        border-color: #cbd5e1;
-    }
-
-    .priority-high {
-        display: inline-block;
-        background: #fee2e2;
-        color: #991b1b;
-        padding: 0.15rem 0.5rem;
-        border-radius: 50px;
-        font-size: 0.65rem;
-        font-weight: 700;
-        margin-left: 0.5rem;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-    }
-
-    .priority-medium {
-        display: inline-block;
-        background: #fef3c7;
-        color: #92400e;
-        padding: 0.15rem 0.5rem;
-        border-radius: 50px;
-        font-size: 0.65rem;
-        font-weight: 700;
-        margin-left: 0.5rem;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-    }
-
-    .priority-low {
-        display: inline-block;
-        background: #dbeafe;
-        color: #1e40af;
-        padding: 0.15rem 0.5rem;
-        border-radius: 50px;
-        font-size: 0.65rem;
-        font-weight: 700;
-        margin-left: 0.5rem;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-    }
-
+    /* ── Footer ── */
     .footer {
         text-align: center;
         padding: 2rem 0;
-        color: #94a3b8;
         font-size: 0.8rem;
-        border-top: 1px solid #e2e8f0;
+        border-top: 1px solid;
         margin-top: 2rem;
+    }
+
+    /* ── LIGHT MODE ── */
+    @media (prefers-color-scheme: light) {
+        .section-title {
+            color: #0f172a;
+            border-color: #e2e8f0;
+        }
+        .metric-card {
+            background: #ffffff;
+            border-color: #e2e8f0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+        .metric-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            border-color: #cbd5e1;
+        }
+        .metric-value { color: #0f172a; }
+        .metric-label { color: #64748b; }
+        .finding-card {
+            background: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .finding-text { color: #1e293b; }
+        .recommendation-card {
+            background: #ffffff;
+            border-color: #e2e8f0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .recommendation-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            border-color: #cbd5e1;
+        }
+        .rec-title { color: #0f172a; }
+        .rec-text { color: #475569; }
+        .priority-high {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        .priority-medium {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .priority-low {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .pipeline-container {
+            background: #f8fafc;
+            border-color: #e2e8f0;
+        }
+        .pipeline-step {
+            background: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+        }
+        .pipeline-text { color: #1e293b; }
+        .tech-badge {
+            background: #f1f5f9;
+            color: #334155;
+            border-color: #e2e8f0;
+        }
+        .tech-badge:hover {
+            background: #e2e8f0;
+            border-color: #cbd5e1;
+        }
+        .footer {
+            color: #94a3b8;
+            border-color: #e2e8f0;
+        }
+    }
+
+    /* ── DARK MODE ── */
+    @media (prefers-color-scheme: dark) {
+        .section-title {
+            color: #f1f5f9;
+            border-color: #334155;
+        }
+        .metric-card {
+            background: #1e293b;
+            border-color: #334155;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        .metric-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border-color: #475569;
+        }
+        .metric-value { color: #f1f5f9; }
+        .metric-label { color: #94a3b8; }
+        .finding-card {
+            background: #1e293b;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+        .finding-text { color: #e2e8f0; }
+        .recommendation-card {
+            background: #1e293b;
+            border-color: #334155;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+        .recommendation-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            border-color: #475569;
+        }
+        .rec-title { color: #f1f5f9; }
+        .rec-text { color: #cbd5e1; }
+        .priority-high {
+            background: #450a0a;
+            color: #fecaca;
+        }
+        .priority-medium {
+            background: #422006;
+            color: #fde68a;
+        }
+        .priority-low {
+            background: #172554;
+            color: #bfdbfe;
+        }
+        .pipeline-container {
+            background: #1e293b;
+            border-color: #334155;
+        }
+        .pipeline-step {
+            background: #0f172a;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        }
+        .pipeline-text { color: #e2e8f0; }
+        .tech-badge {
+            background: #334155;
+            color: #e2e8f0;
+            border-color: #475569;
+        }
+        .tech-badge:hover {
+            background: #475569;
+            border-color: #64748b;
+        }
+        .footer {
+            color: #64748b;
+            border-color: #334155;
+        }
     }
 </style>
 """, unsafe_allow_html=True)

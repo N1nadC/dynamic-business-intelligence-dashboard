@@ -25,44 +25,43 @@ st.markdown("""
     .page-header {
         font-size: 2rem;
         font-weight: 800;
-        color: #0f172a;
         margin-bottom: 0.3rem;
         letter-spacing: -0.02em;
     }
 
     .page-subheader {
         font-size: 0.95rem;
-        color: #64748b;
         margin-bottom: 1.5rem;
     }
 
     .chart-card {
-        background: white;
         border-radius: 12px;
         padding: 1.3rem;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        border: 1px solid;
         margin-bottom: 1.2rem;
     }
 
     .chart-header {
         font-size: 1.1rem;
         font-weight: 700;
-        color: #0f172a;
         margin-bottom: 0.8rem;
         padding-bottom: 0.4rem;
-        border-bottom: 2px solid #f1f5f9;
+        border-bottom: 2px solid;
     }
 
     .insight-box {
-        background: #fefce8;
-        border-left: 3px solid #eab308;
+        border-left: 3px solid;
         border-radius: 6px;
         padding: 0.8rem 1rem;
         margin-top: 0.6rem;
         font-size: 0.85rem;
-        color: #713f12;
         font-weight: 500;
+    }
+
+    .insight-box.yellow {
+        background: #fefce8;
+        border-left-color: #eab308;
+        color: #713f12;
     }
 
     .insight-box.blue {
@@ -90,11 +89,10 @@ st.markdown("""
     }
 
     .filter-bar {
-        background: #f8fafc;
         border-radius: 10px;
         padding: 0.8rem 1.2rem;
         margin-bottom: 1.2rem;
-        border: 1px solid #e2e8f0;
+        border: 1px solid;
     }
 
     .region-badge {
@@ -106,33 +104,110 @@ st.markdown("""
         margin-right: 0.4rem;
     }
 
-    .region-badge.west {
-        background: #dbeafe;
-        color: #1e40af;
-    }
-
-    .region-badge.east {
-        background: #d1fae5;
-        color: #065f46;
-    }
-
-    .region-badge.central {
-        background: #fef3c7;
-        color: #92400e;
-    }
-
-    .region-badge.south {
-        background: #fee2e2;
-        color: #991b1b;
-    }
-
     .footer {
         text-align: center;
         padding: 1.5rem 0;
-        color: #94a3b8;
         font-size: 0.75rem;
-        border-top: 1px solid #e2e8f0;
+        border-top: 1px solid;
         margin-top: 1rem;
+    }
+
+    /* ── LIGHT MODE ── */
+    @media (prefers-color-scheme: light) {
+        .page-header { color: #0f172a; }
+        .page-subheader { color: #64748b; }
+        .chart-card {
+            background: white;
+            border-color: #e2e8f0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .chart-header {
+            color: #0f172a;
+            border-color: #f1f5f9;
+        }
+        .filter-bar {
+            background: #f8fafc;
+            border-color: #e2e8f0;
+        }
+        .region-badge.west {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .region-badge.east {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .region-badge.central {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .region-badge.south {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        .footer {
+            color: #94a3b8;
+            border-color: #e2e8f0;
+        }
+    }
+
+    /* ── DARK MODE ── */
+    @media (prefers-color-scheme: dark) {
+        .page-header { color: #f1f5f9; }
+        .page-subheader { color: #94a3b8; }
+        .chart-card {
+            background: #1e293b;
+            border-color: #334155;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+        .chart-header {
+            color: #f1f5f9;
+            border-color: #334155;
+        }
+        .filter-bar {
+            background: #1e293b;
+            border-color: #334155;
+        }
+        .region-badge.west {
+            background: #1e3a8a;
+            color: #bfdbfe;
+        }
+        .region-badge.east {
+            background: #14532d;
+            color: #a7f3d0;
+        }
+        .region-badge.central {
+            background: #78350f;
+            color: #fde68a;
+        }
+        .region-badge.south {
+            background: #450a0a;
+            color: #fecaca;
+        }
+        .footer {
+            color: #64748b;
+            border-color: #334155;
+        }
+        .insight-box.yellow {
+            background: #422006;
+            color: #fde68a;
+        }
+        .insight-box.blue {
+            background: #172554;
+            color: #bfdbfe;
+        }
+        .insight-box.green {
+            background: #052e16;
+            color: #a7f3d0;
+        }
+        .insight-box.purple {
+            background: #2e1065;
+            color: #ddd6fe;
+        }
+        .insight-box.red {
+            background: #450a0a;
+            color: #fecaca;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
@@ -236,7 +311,7 @@ with st.container():
         config={'displayModeBar': False}
     )
     st.markdown("""
-    <div class="insight-box">
+    <div class="insight-box yellow">
         High-profit states closely align with top revenue-generating markets. 
         Profit concentration validates the focus on high-value geographic segments.
     </div>
